@@ -8,15 +8,49 @@ body {
   font-family: sans serif;
 }
 
+
+
 header {
   display: flex;
   background: rgb(29, 47, 85);
   width: 90%;
+  height:10vh;
   margin: auto;
+  align-items:center;
   color: rgb(223, 221, 221);
 }
 
-.nav-link {
+.logo,.nav-links,.profile-picture{
+  display:flex;
+}
+
+.logo{
+  font-weight: 400;
+  margin: 5px;
+  flex:1;
+}
+
+.nav{
   text-decoration: none;
   color: rgb(223, 221, 221);
+  flex:2;
+  background: rgb(136, 156, 62);
+}
+.nav-links{
+  list-style: none;
+}
+
+.nav-link{
+  color: #a31e1e;
+  font-size:18px; 
+  text-decoration: none;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-weight:400;
+  font-size: 150%;
+}
+.profile-picture{
+  justify-content: flex-end;
+  flex:1;
+  margin: 5px;
 }
