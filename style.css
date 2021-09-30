@@ -5,19 +5,18 @@
 }
 
 body {
-  position: absolute;
-  background: rgb(38, 241, 55);
-  width: 100%;
-  height: 100vh;
+  font-family: sans serif;
 }
 
-.main {
-  position: absolute;
-  background: rgb(196, 24, 24);
+header {
+  display: flex;
+  background: rgb(29, 47, 85);
+  width: 90%;
+  margin: auto;
+  color: rgb(223, 221, 221);
 }
 
-nav a {
-  background: rgb(24, 196, 19);
-  position: relative;
-  text-align: center;
+.nav-link {
+  text-decoration: none;
+  color: rgb(223, 221, 221);
 }
