@@ -3,25 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
-}
+
 body {
-  position:absolute;
+  position: absolute;
   background: rgb(38, 241, 55);
   width: 100%;
   height: 100vh;
 }
 
-.main{
-   position:absolute;
-    background: rgb(196, 24, 24);
+.main {
+  position: absolute;
+  background: rgb(196, 24, 24);
 }
 
 nav a {
   background: rgb(24, 196, 19);
   position: relative;
-  left:0px;
-  right:0px;
-  top:10%;
-  bottom:80%;
+  text-align: center;
 }
-
